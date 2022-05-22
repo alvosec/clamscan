@@ -45,11 +45,11 @@ find /var/www/ -name  "*.ini" ! -name "license.txt" ! -name "readme.txt" -type f
 
 echo ""
 
-#echo "[*] Scanning for pdf files"
+echo "[*] Scanning for pdf files"
 
-#find /var/www/ -iname '*.pdf' ! -path "/var/www/cloud/public_html/*"
+find /var/www/ -iname '*.pdf' ! -path "/var/www/cloud/public_html/*"
 
-#echo ""
+echo ""
 
 echo "[*] Scanning for conf files"
 
